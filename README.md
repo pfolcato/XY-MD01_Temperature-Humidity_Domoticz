@@ -1,7 +1,7 @@
-# XY-MD01_Temperature-Humidity_Domoticz
+# XY-MD01 Temperature Humidity reader on Domoticz
 Script that reads the temperature from a ModBus Temperature sensor connected on /dev/ttyUSB0 on a unix like device via a USB to RS485 converter.
 
-The pymodbus library already return the temperature in an integer in Celcius and Humidity for this specific sensor model.
+The pymodbus library already return the temperature in an integer in Celcius and Humidity for this specific sensor model based on SHT20.
 
 The sensor is a "XY-MD01" model. based on SHT20 sensor
 
